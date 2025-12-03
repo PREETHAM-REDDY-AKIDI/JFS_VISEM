@@ -1,0 +1,10 @@
+GIT COMMANDS
+1.	git init
+2.	git add .
+3.	git commit -m “text”
+4.	git remote origin <url>
+5.	git push origin main/master
+6.	you can check in remote repository
+
+If you want to retrieve the remote repository to local pc
+-	git clone <remote-url> 
