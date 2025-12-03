@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Programming Language Inventors</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Programming Language Inventors</h1>
+            <p>Click a language to reveal its creator</p>
+        </header>
+        
+        <div class="content-wrapper">
+            <div class="selection-container">
+                <select id="languageSelect" class="lang-select">
+                    <option value="" disabled selected>Choose a language...</option>
+                    <option value="C">C</option>
+                    <option value="C++">C++</option>
+                    <option value="Java">Java</option>
+                    <option value="Python">Python</option>
+                    <option value="JavaScript">JavaScript</option>
+                    <option value="PHP">PHP</option>
+                    <option value="Ruby">Ruby</option>
+                    <option value="Lisp">Lisp</option>
+                    <option value="COBOL">COBOL</option>
+                    <option value="C#">C#</option>
+                </select>
+            </div>
+            
+            <div class="result-display" id="resultDisplay">
+                <div class="placeholder-text">Select a language</div>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
